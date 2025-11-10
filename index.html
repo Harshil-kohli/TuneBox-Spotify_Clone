@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <meta name="description" content="Web-media player">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="1.png">
+    <meta name="description" content="abcd">
+    <link rel="preload" as="image" href="/images/hero.webp">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="bar">
+                <img class="logo" src="logo.jpg" alt="">
+                <div class="logo_hidden">Your Personalized Music App.</div>
+                <div class="sq">
+                    <img class="house" src="house.svg" alt="">
+                    <div class="iv_h">Home</div>
+                </div>
+                <input class="input" type="text" name="ques" placeholder="What do you want to play?">
+                <img class="search" src="search.png" alt="">
+                <div class="line"></div>
+                <img class="language" src="lang.png" alt="">
+                <ul class="ulist">
+                    <li>Premium</li>
+                    <li>Support</li>
+                    <li>Download</li>
+                </ul>
+                <div class="line2"></div>
+                <ul class="u2list">
+                    <li class="install"> <img class="arrow" src="arrow.svg" alt=""> Install App</li>
+                    <li class="u2list_sign">Sign up</li>
+                    <li class="log">Log in</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="nav_box">
+            <div class="nav_box2">
+                <div class="nav_box2_child">
+                <div class="lib">Your Library</div>
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="boxes">
+                    <div class="box1">
+                        <div class="box_head1">Create your first playlist</div>
+                        <div class="box_subhead1">It's easy, we'll help you</div>
+                        <div class="box_button1">Create playlist</div>
+                    </div>
+                    <div class="box2">
+                        <div class="box_head2">Let's find some podcasts to follow</div>
+                        <div class="box_subhead2">We'll keep you updated on new episodes</div>
+                        <div class="box_button2">Browse podcasts</div>
+                    </div>
+                    <div class="foot_words">
+                        <ul class="foot_lists">
+                            <li>Legal</li>
+                            <li>Safety&PrivacyCenter</li>
+                            <li>PrivacyPolicy</li>
+                            <li>Cookies</li>
+                            <li>AboutAds</li>
+                            <li>Accessibility</li>
+                            <li class="coky">Cookies</li>
+                        </ul>
+                    </div>
+                    <div class="foot_button2"> <img class="foot_langb" src="language.svg" alt=""> English</div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="nav_bar3">
+            <div class="nav_bar4" id="scrollContainer">
+                <div class="hover_scroll"></div>
+                <div class="overflow_scroll" id="scrollBar"></div>
+                <div class="heading1">
+                    <span class="hover_heading1">Trending Songs</span>
+                </div>
+                <div class="show_all1">
+                    <span class="hover_show">Show all</span>
+                </div>
+                <div class="images">
+                    <div class="image dis1"><img class="image1"
+                            src="https://i.scdn.co/image/ab67616d00001e0225f7621c3c70dd1f868b61bc" alt="">
+                        <div class="text1">Agar Tum Saath Ho(From "Tamasha")</div>
+                        <div class="sub_text1">Alka Yagnik, Arijit Singh</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis2"><img class="image1"
+                            src="https://i.scdn.co/image/ab67616d0000b273f6fe1063b866ffcd6ee7aeba" alt="">
+                        <div class="text2">2 Khatole(Lofi Mix)</div>
+                        <div class="sub_text2">Masoom Sharma</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis3"><img class="image1"
+                            src="https://i.scdn.co/image/ab67616d0000b27383141000ee8ce3b893a0b425" alt="">
+                        <div class="text3">Finding Her</div>
+                        <div class="sub_text3">Kushagra,Bharath,Saaheal</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis4"><img class="image1"
+                            src="https://i.scdn.co/image/ab67616d0000b273931b61b7382db17ed15e75fc" alt="">
+                        <div class="text4">Maand</div>
+                        <div class="sub_text4">Bayaan,Hasan Raheem, Rovalio</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis5"><img class="image1"
+                            src="https://i.scdn.co/image/ab67616d0000b2731344800458a38197bfc721f3" alt="">
+                        <div class="text5">Jhol</div>
+                        <div class="sub_text5">Maanu,Annual Khalid</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis6"><img class="image1"
+                            src="https://i.scdn.co/image/ab67616d0000b27385c5968be0d0d9c545241124" alt="">
+                        <div class="text6">Pal Pal</div>
+                        <div class="sub_text6">Afusic,AliSoomroMusic</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis7"><img class="image1"
+                            src="https://i.scdn.co/image/ab67616d0000b273e44e36f3523f7234ce787be1" alt="">
+                        <div class="text7">Aa Seetadevi Navvula</div>
+                        <div class="sub_text7">Arijit Singh,Krishna Chaitanya</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis8"><img class="image1"
+                            src="https://i.scdn.co/image/ab67616d0000b2738d850214bdd320856fb9c4c2" alt="">
+                        <div class="text8">48 Rhymes</div>
+                        <div class="sub_text8">Karan Aujia,Manna Music</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>>
+                    </div>
+                    <div class="image dis9"><img class="image1"
+                            src="https://i.scdn.co/image/ab67616d00001e021018173246dd0936e562aa01" alt="">
+                        <div class="text9">CHAL</div>
+                        <div class="sub_text9">Dabzee,Rishi Roy,Fathima Jahaan</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- ---------------------------------------------------- -->
+
+                <div class="heading2">
+                    <span class="hover_heading2">Popular artists</span>
+                </div>
+                <div class="show_all2"><span class="hover_show">Show all</span></div>
+                <div class="images">
+                    <div class="image dis1"><img class="image2"
+                            src="https://i.scdn.co/image/ab6761610000e5ebcb6926f44f620555ba444fca" alt="">
+                        <div class="text1_2">Pritam</div>
+                        <div class="sub_text1_2">Artist</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis2"><img class="image2"
+                            src="https://i.scdn.co/image/ab6761610000e5eb5ba2d75eb08a2d672f9b69b7" alt="">
+                        <div class="text2_2">Arijit Singh</div>
+                        <div class="sub_text2_2">Artist</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis3"><img class="image2"
+                            src="https://i.scdn.co/image/ab6761610000e5ebb19af0ea736c6228d6eb539c" alt="">
+                        <div class="text3_2">A.R.Rahman</div>
+                        <div class="sub_text3_2">Artist</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis4"><img class="image2"
+                            src="https://i.scdn.co/image/ab6761610000e5ebb69f6182a27407318b632a5f" alt="">
+                        <div class="text4_2">Sachin-Jigar</div>
+                        <div class="sub_text4_2">Artist</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis5"><img class="image2"
+                            src="https://i.scdn.co/image/ab6761610000e5eb90b6c3d093f9b02aad628eaf" alt="">
+                        <div class="text5_2">Vishal-Shekhar</div>
+                        <div class="sub_text5_2">Artist</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis6"><img class="image2"
+                            src="https://i.scdn.co/image/ab6761610000e5ebc40600e02356cc86f0debe84" alt="">
+                        <div class="text6_2">AtifAslam</div>
+                        <div class="sub_text6_2">Artist</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis7"><img class="image2"
+                            src="https://i.scdn.co/image/ab6761610000e5eb0f0be2054fe9594026a6b843" alt="">
+                        <div class="text7_2">Anirudh Ravichander</div>
+                        <div class="sub_text7_2">Artist</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis8"><img class="image2"
+                            src="https://i.scdn.co/image/ab6761610000e5ebbc7e4fffd515b47ff1ebbc1f" alt="">
+                        <div class="text8_2">Yo Yo Honey Singh</div>
+                        <div class="sub_text8_2">Artist</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis9"><img class="image2"
+                            src="https://i.scdn.co/image/ab6761610000e5eb8de0e6e7e55d7773931ab7f4" alt="">
+                        <div class="text9_2">Udit Narayna</div>
+                        <div class="sub_text9_2">Artist</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                </div>
+                <div class="heading1">
+                    <span class="hover_heading1">Popular albums and singles</span>
+                </div>
+                <div class="show_all3"><span class="hover_show">Show all</span></div>
+                <div class="images">
+                    <div class="image dis1"><img class="image3"
+                            src="https://i.scdn.co/image/ab67616d0000b273707ea5b8023ac77d31756ed4" alt="">
+                        <div class="text1">Yeh Jawaani Hai Deewani</div>
+                        <div class="sub_text1 boom1">Pritam</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis2"><img class="image3"
+                            src="https://i.scdn.co/image/ab67616d0000b273f000fdbe92e9a1058034fd33" alt="">
+                        <div class="text2">Sanam Teri Kasam</div>
+                        <div class="sub_text2 boom2">HimeshReshammiya,Sameer Anjaan,Subrat Sinha</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis3"><img class="image3"
+                            src="https://i.scdn.co/image/ab67616d0000b273a5183fa4b99bcec1f506418d" alt="">
+                        <div class="text3">Young G.O.A.T</div>
+                        <div class="sub_text3">CheemaY, Gur Sidhu</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis4"><img class="image3"
+                            src="https://i.scdn.co/image/ab67616d0000b273931b61b7382db17ed15e75fc" alt="">
+                        <div class="text4">Maand</div>
+                        <div class="sub_text4">Bayaan,Hasan Raheem, Rovalio</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis5"><img class="image3"
+                            src="https://i.scdn.co/image/ab67616d0000b273aad3f4b601ae8763b3fc4e88" alt="">
+                        <div class="text5">Glory</div>
+                        <div class="sub_text5">Yo Yo Honey Singh</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis6"><img class="image3"
+                            src="https://i.scdn.co/image/ab67616d0000b273773c5f60bcb309ef8802e4ef" alt="">
+                        <div class="text6">Raanjhan(From"Do Patti")</div>
+                        <div class="sub_text6">Sachet-Parampura,-Tandon,Kausar...</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis7"><img class="image3"
+                            src="https://i.scdn.co/image/ab67616d0000b273e44e36f3523f7234ce787be1" alt="">
+                        <div class="text7">Aa Seetadevi Navvula</div>
+                        <div class="sub_text7">Arijit Singh,Krishna Chaitanya</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis8"><img class="image3"
+                            src="https://i.scdn.co/image/ab67616d0000b2736404721c1943d5069f0805f3" alt="">
+                        <div class="text8">48 Rhymes</div>
+                        <div class="sub_text8">Karan Aujia,Manna Music</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis9"><img class="image3"
+                            src="https://i.scdn.co/image/ab67616d0000b2731aa5adad8593923dcdf1a7d0" alt="">
+                        <div class="text9">CHAL</div>
+                        <div class="sub_text9">Dabzee,Rishi Roy,Fathima Jahaan</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                </div>
+                <div class="heading1">
+                    <span class="hover_heading1">Popular radio</span>
+                </div>
+                <div class="show_all4"><span class="hover_show">Show all</span></div>
+                <div class="images">
+                    <div class="image dis1"><img class="image3"
+                            src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4YRxDV8wJFPHPTeXepOstw/en"
+                            alt="">
+                        <div class="text1"></div>
+                        <div class="sub_text1 ast">With Alka Yagnik, Arijit Singh</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis2"><img class="image3"
+                            src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/0oOet2f43PA68X5RxKobEy/de"
+                            alt="">
+                        <div class="text2"></div>
+                        <div class="sub_text2 ast">With Masoom Sharma</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis3"><img class="image3"
+                            src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/2FKWNmZWDBZR4dE5KX4plR/de"
+                            alt="">
+                        <div class="text3"></div>
+                        <div class="sub_text3 ast">With Kushagra,Bharath, Saaheal</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis4"><img class="image3"
+                            src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/2ae6PxICSOZHvjqiCcgon8/en"
+                            alt="">
+                        <div class="text4"></div>
+                        <div class="sub_text4 ast">With Bayaan,Hasan Raheem, Rovalio</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis5"><img class="image3"
+                            src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4fEkbug6kZzzJ8eYX6Kbbp/en"
+                            alt="">
+                        <div class="text5"></div>
+                        <div class="sub_text5 ast">With Maanu,Annual Khalid</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis6"><img class="image3"
+                            src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4PULA4EFzYTrxYvOVlwpiQ/de"
+                            alt="">
+                        <div class="text6"></div>
+                        <div class="sub_text6 ast">With Afusic,AliSoomro Music</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis7"><img class="image3"
+                            src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4K6blSRoklNdpw4mzLxwfn/de"
+                            alt="">
+                        <div class="text7"></div>
+                        <div class="sub_text7 ast">With Arijit Singh,Krishna Chaitanya</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis8"><img class="image3"
+                            src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/7uIbLdzzSEqnX0Pkrb56cR/de"
+                            alt="">
+                        <div class="text8"></div>
+                        <div class="sub_text8 ast">With Karan Aujia,Manna Music</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis9"><img class="image3"
+                            src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/0GF4shudTAFv8ak9eWdd4Y/de"
+                            alt="">
+                        <div class="text9"></div>
+                        <div class="sub_text9 ast">With Dabzee,Rishi Roy,Fathima Jahaan</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                </div>
+                <div class="heading1">
+                    <span class="hover_heading1">Featured Charts</span>
+                </div>
+                <div class="show_all5"><span class="hover_show">Show all</span></div>
+                <div class="images">
+                    <div class="image dis1"><img class="image3"
+                            src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg"
+                            alt="">
+                        <div class="text1"></div>
+                        <div class="sub_text1 ast">Your weekly update of the most played tracks right...</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis2"><img class="image3"
+                            src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_in_default.jpg"
+                            alt="">
+                        <div class="text2"></div>
+                        <div class="sub_text2 ast">Your weekly update of the most played tracks right...</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis3"><img class="image3"
+                            src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_global_default.jpg"
+                            alt="">
+                        <div class="text3"></div>
+                        <div class="sub_text3 ast">Your weekly update of the most played tracks right...</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis4"><img class="image3"
+                            src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_in_default.jpg"
+                            alt="">
+                        <div class="text4"></div>
+                        <div class="sub_text4 ast">Your weekly update of the most played tracks right...</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis5"><img class="image3"
+                            src="https://charts-images.scdn.co/assets/locale_en/viral/daily/region_global_default.jpg"
+                            alt="">
+                        <div class="text5"></div>
+                        <div class="sub_text5 ast">Your weekly update of the most played tracks right...</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis6"><img class="image3"
+                            src="https://charts-images.scdn.co/assets/locale_en/viral/daily/region_in_default.jpg"
+                            alt="">
+                        <div class="text6"></div>
+                        <div class="sub_text6 ast">Your weekly update of the most played tracks right...</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="dis7">
+                        <div class="text7"></div>
+                        <div class="sub_text7"></div>
+                    </div>
+                    <div class="dis8">
+                        <div class="text8"></div>
+                        <div class="sub_text8"></div>
+                    </div>
+                    <div class="dis9">
+                        <div class="text9"></div>
+                        <div class="sub_text9"></div>
+                    </div>
+                </div>
+                <div class="heading1">
+                    <span class="hover_heading1">India's Best</span>
+                </div>
+                <div class="show_all6"><span class="hover_show">Show all</span></div>
+                <div class="images">
+                    <div class="image dis1"><img class="image3"
+                            src="https://i.scdn.co/image/ab67706f00000002e863ce9df6955fed82d56257" alt="">
+                        <div class="text1"></div>
+                        <div class="sub_text1 ast">Top Bollywood tracks lighting up the charts....</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis2"><img class="image3"
+                            src="https://i.scdn.co/image/ab67706f000000028f10ecc2be9126b2309ea5fd" alt="">
+                        <div class="text2"></div>
+                        <div class="sub_text2 ast">Top Bollywood tracks lighting up the charts....</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis3"><img class="image3"
+                            src="https://i.scdn.co/image/ab67706f0000000236c8249fea736cd36978a562" alt="">
+                        <div class="text3"></div>
+                        <div class="sub_text3 ast">Top Bollywood tracks lighting up the charts....</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis4"><img class="image3"
+                            src="https://i.scdn.co/image/ab67706f0000000241d850fa743e1ebf012a686e" alt="">
+                        <div class="text4"></div>
+                        <div class="sub_text4 ast">Top Bollywood tracks lighting up the charts....</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis5"><img class="image3"
+                            src="https://i.scdn.co/image/ab67706f000000022b56c3f8028b17736c37e597" alt="">
+                        <div class="text5"></div>
+                        <div class="sub_text5 ast">Top Bollywood tracks lighting up the charts....</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis6"><img class="image3"
+                            src="https://i.scdn.co/image/ab67706f00000002ed9af7974cb083220f850e72" alt="">
+                        <div class="text6"></div>
+                        <div class="sub_text6 ast">Top Bollywood tracks lighting up the charts....</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis7"><img class="image3"
+                            src="https://i.scdn.co/image/ab67706f00000002665f3dd41399b0e59bf827ac" alt="">
+                        <div class="text7"></div>
+                        <div class="sub_text7 ast">Top Bollywood tracks lighting up the charts....</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis8"><img class="image3"
+                            src="https://i.scdn.co/image/ab67706f00000002e19df36bf48e947594c468ed" alt="">
+                        <div class="text8"></div>
+                        <div class="sub_text8 ast">Top Bollywood tracks lighting up the charts....</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                    <div class="image dis9"><img class="image3"
+                            src="https://i.scdn.co/image/ab67706f00000002e2881c83b28f451044b0b8f7" alt="">
+                        <div class="text9"></div>
+                        <div class="sub_text9 ast">Top Bollywood tracks lighting up the charts....</div>
+                        <button class="spotify-play-btn">
+                            <div class="play-icon"></div>
+                        </button>
+                    </div>
+                </div>
+                <div class="ffooter">
+                    <ul>
+                        <li id="head1">Company</li>
+                        <li>About</li>
+                        <li>Jobs</li>
+                        <li>For the Record</li>
+                    </ul>
+                    <ul>
+                        <li id="head1">Communities</li>
+                        <li>For Artists</li>
+                        <li>Developers</li>
+                        <li>Advertising</li>
+                        <li>Investors</li>
+                        <li>Vendors</li>
+                    </ul>
+                    <ul>
+                        <li id="head1">Useful links</li>
+                        <li>Support</li>
+                        <li>Free Mobile App</li>
+                    </ul>
+                    <ul>
+                        <li id="head1">Spotify Plans</li>
+                        <li>Premium Individual</li>
+                        <li>Premium Duo</li>
+                        <li>Premium Family</li>
+                        <li>Premium Student</li>
+                        <li>Spotify Free</li>
+                    </ul>
+                    <div class="iconss"><img id="icon1"
+                            src="https://www.pngfind.com/pngs/m/237-2378905_ig-png-logo-svg-transparent-instagram-logo-png.png"
+                            alt="">
+                        <img id="icon2" src="https://banner2.cleanpng.com/20180329/yew/avi2sqxnt.webp" alt="">
+                        <img id="icon3"
+                            src="https://e7.pngegg.com/pngimages/500/854/png-clipart-computer-icons-facebook-logo-graphics-facebook-logo-grey.png"
+                            alt="">
+                    </div>
+                </div>
+                <hr class="hr">
+                <div class="copyright">&copy;2025 Spotify AB</div>
+            </div>
+        </div>
+    </section>
+    <main>
+        <div class="main_cont2">
+        <div class="browse">
+            <img class="browse_arr" src="arrow.svg" alt="">
+            <div class="browse_back">Back</div>
+        </div>
+        <div class="inside_box">
+            <div class="library">Your Library</div>
+            <div class="bar11"></div>
+            <div class="bar22"></div>
+            <div class="playbar" id="scrollContainerr">
+                <div class="scroll-content">
+                    <div class="play_box1"></div>
+                    <div class="play_box1"></div>
+                    <div class="play_box1"></div>
+                    <div class="play_box1"></div>
+                    <div class="play_box1"></div>
+                    <div class="play_box1"></div>
+                    <div class="play_box1"></div>
+                    <div class="play_box1"></div>  <!--js will automaticly remove the extra boxes.-->
+                    <div class="play_box1"></div>
+                    <div class="play_box3 play_box2">#!!Currently Unavailable!!#</div>
+                    <div class="play_box3 play_box2">#!!Currently Unavailable!!#</div>
+                    <div class="play_box3 play_box2">#!!Currently Unavailable!!#</div>
+                    <div class="play_box3 play_box2">#!!Currently Unavailable!!#</div>
+                    <div class="play_box3 play_box2">#!!Currently Unavailable!!#</div>
+                    <div class="play_box3 play_box2">#!!Currently Unavailable!!#</div>
+                    <div class="play_box3 play_box2">#!!Currently Unavailable!!#</div>  <!--This is just for scroller, otherwise this is useless.(currently unavailable)-->
+                    <div class="play_box3 play_box2">#!!Currently Unavailable!!#</div>
+                    <div class="play_box3 play_box2">#!!Currently Unavailable!!#</div>
+                    <div class="play_box3 play_box2">#!!Currently Unavailable!!#</div>
+                    <div class="play_box3 play_box2">#!!Currently Unavailable!!#</div>
+                </div>
+                <div class="scroll-track">
+                    <div class="scroll-thumb" id="scrollBarr"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+    <div class="nav_bar5">
+        <div class="nav_bar6">
+            <div class="spotify_navlogo">
+                <img class="navlogo" src="1.png" alt="">
+            </div>
+            <div class="nav_bar6_text">Playlists</div>
+            <div class="nav_bar6_text2">Best episodes of the week</div>
+            <div class="nav_player">
+                <img class="nav_player_logo" src="music.svg" alt="Thumbnail">
+                <div class="song_info_title"></div>
+                <div class="song_info_author"></div>
+                <img class="player_back" src="back.svg" alt="">
+                <img class="player_previous" src="previous.svg" alt="">             
+                <div class="player_play">
+                  <img class="icon play_icon" src="play.svg" alt="">
+                  <img class="icon pause_icon" src="pause.svg" alt="">
+                </div>
+                <img class="player_next" src="next.svg" alt="">
+                <img class="player_front" src="front.svg" alt="">
+                <img class="player_reload" src="reload.svg" alt="">
+                <div class="current_duration"></div>
+                <div class="duration_display">
+                    <span class="current_time">00:00</span> / <span class="total_time">00:00</span>
+                  </div>
+                  <div id="audioLoader" style="display: none;">
+                    <div class="spinner"></div>
+                </div>
+                <div class="player-controls">
+                    <input type="range" id="seekBar" value="0" min="0" step="1">
+                  </div>
+                  
+                  <div class="volume-control">
+                    <img id="volumeIcon" src="h_v.svg" alt="volume icon" style="width:24px;height:24px;">
+                    <input type="range" id="volumeBar" min="0" max="1" step="0.01" value="1">
+                  </div>
+                  </div>
+              </div>     
+            <div class="parent_podcast">
+            <img class="podcasts" src="podcast.PNG" alt="">
+            <img class="podcasts1" src="podcast.PNG" alt="">
+            <img class="podcasts2" src="podcast.PNG" alt="">
+            <img class="podcasts3" src="podcast.PNG" alt="">
+            <img class="podcasts4" src="podcast.PNG" alt="">
+        </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup">
+        <div class="popup-content">
+          <div class="popup-image">
+            <img src="1.png" alt="Logo">
+          </div>
+          <div class="popup-text">
+            <h2>Error Occurred</h2>
+            <p>Something went wrong. Please reload the page.</p>
+            <div class="popup-buttons">
+                <div class="reload-button" onclick="clearPopupAndReload()">Reload</div>
+            </div>
+          </div>
+        </div>
+        <div class="close-button" onclick="clearPopupAndReload()">Close</div>
+      </div>
+    <footer>
+        <div class="footer">
+            <div class="foot_head">Preview of Spotify</div>
+            <div class="foot_subhead">Sign up to get unlimited songs and podcasts with occasional ads. No credit card
+                needed.</div>
+            <div class="foot_button">Sign up free</div>
+        </div>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+<!-- document.querySelectorAll('.image').forEach((btn, index) => {
+    btn.addEventListener('click', () => {
+        console.log(`Clicked image button ${index + 1}`);
+        document.querySelector('.nav_bar4').style.display = 'none';
+        history.pushState({ page: 'album' }, '', '/Spotify/album/2pxs');
+    });
+});
+window.addEventListener('popstate', () => {
+  document.querySelector('.nav_bar4').style.display = 'block';
+}); -->
